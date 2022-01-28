@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "plugins": [
+    "@typescript-eslint",
+    "@angular-eslint/template"
+  ],
+  "parser": "@angular-eslint/template-parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "@angular-eslint/template/no-duplicate-attributes": [
+      "error"
+    ]
+  }
+}
